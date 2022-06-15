@@ -195,11 +195,16 @@ main {
     text-transform: uppercase;
     margin-bottom: 5px;
     font-weight: 500;
+    transition: all 250ms ease;
+}
+
+.login_link:hover{
+    text-decoration: underline;
 }
 
 .wallpaper{
     width: 100%;
-    background-image: url(./images/samira-league-of-legends-2021-games-3840x2166-5811.jpg);
+    background-image: url(./images/valorant-cypher-neon-light-lngjymkls1c2cji2.jpg);
     background-size: cover;
     background-position: center;
     flex: 1;
